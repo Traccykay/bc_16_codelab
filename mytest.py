@@ -10,4 +10,3 @@ def prime_no(number):
 		return True
 	elif number % 3 == 0:
 		return False
-    
