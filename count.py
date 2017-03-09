@@ -1,7 +1,6 @@
-def words(str):
+def words(str):def words(str):
     counts = dict()
-    str = "{}".format(str)
-    words = str.split(" ")
+    words = str.split()
 
     for word in words:
         if word.isdigit():
@@ -16,5 +15,3 @@ def words(str):
                 counts[word] = 1
 
     return counts
-
-print( words(1))
