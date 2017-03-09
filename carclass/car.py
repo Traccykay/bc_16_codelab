@@ -31,7 +31,7 @@ class Car:
     
 	def drive(self, speed):
 		if speed == 3:
-			self.speed = 1000
+			self.speed = pow(10, speed)
 		elif speed == 7:
 			self.speed = 77
 		return self
